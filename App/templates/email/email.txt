@@ -1,0 +1,7 @@
+Hey {{name}}
+Welcome to crimmz-pitch.
+This is a platform enables you to share your pitches and views.
+Hope you enjoy your experience with us.
+
+Thanks as you enjoy this,
+Perfect Team
