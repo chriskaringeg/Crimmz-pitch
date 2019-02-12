@@ -8,7 +8,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: steelblue;
+    background-color: maroon;
     text-align: center;
     color: white;
     transition: background 1s, transform 0.5s;
@@ -17,7 +17,7 @@ body {
     justify-content: center;
 }
 .navbar {
-    background-color: steelblue;
+    background-color: maroon;
     border: none;
 }
 .navbar a {
@@ -59,7 +59,7 @@ span.icon-bar {
 }
 .pitch-comment {
     text-decoration: none;
-    color: steelblue
+    color: maroon
 }
 .pitch-comment:hover {
     transform: scale(1.2)
@@ -98,7 +98,7 @@ hr {
     color: lime
 }
 .login-btn {
-    color: steelblue;
+    color: maroon;
 }
 .profile-pic {
     max-height: 300px;
