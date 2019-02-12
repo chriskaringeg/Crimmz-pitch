@@ -44,7 +44,9 @@ Installation
 To access this application on your command line, you need to clone it git clone 
 
 ## Known Bugs x
-Currently, there are no known bugs
+
+Deployment problems
+
 
 ## Licence
 
