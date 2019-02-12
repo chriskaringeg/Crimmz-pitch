@@ -10,12 +10,11 @@ body {
     margin-top: 20px;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
     background-color: maroon;
     text-align: center;
     color: white;
-    transition: background 1s, transform 0.5s;
     display: flex;
+    margin: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -29,21 +28,12 @@ body {
 span.icon-bar {
     color: white;
 }
-.category:hover {
-    transform: scale(1.1)
-}
+
 .category a {
     color: white;
-    transition: transform 1s;
+    
 }
-.category a:hover {
-    transform: rotateZ(360deg)
-}
-.categories {
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between
-}
+
 .pitch-row {
     display: flex;
     justify-content: space-between;
