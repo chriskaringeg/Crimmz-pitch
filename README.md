@@ -14,8 +14,7 @@ As a user, I would like to view the pitches I have created in my profile page.
 As a user, I would like to comment on the different pitches and leave feedback.
 As a user, I would like to submit a pitch in any category.
 As a user, I would like to view the different categories.
-How to use rocket
-When the user opens the website, he/she will see the pitch categories. Upon clicking a category, he/she will see all the pitches in that particular category The user will not be allowed to comment or add a pitch if they are not logged in. A user can navigate to the login section if he/she has an account or the sign-up section for new users. New users will receive a welcome email upon registration Once logged in, a user can comment on any pitch. A user can also add a pitch in one of the categories provided. The user can also customise their profile with a profile photo and a bio The user can also view another user's profile
+
 
 ## Technologies used 
 
