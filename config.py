@@ -7,7 +7,7 @@ class Config:
     UPLOADED_PHOTOS_DEST = "app/static/photos"
     SECRET_KEY = 'samkasyoki'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://chris:blackpool005@localhost/crimmzpitch'
+    SQLALCHEMY_DATABASE_URI = 'postgresql-pointy-80174 ://chris:blackpool005@localhost/crimmzpitch'
 
     #email stuff
     MAIL_SERVER = "smtp.gmail.com"
