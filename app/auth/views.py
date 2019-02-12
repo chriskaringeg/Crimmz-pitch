@@ -8,7 +8,7 @@ from app.email import create_mail
 @auth.route("/register", methods = ["GET","POST"])
 def register():
     form = RegistrationForm()
-    title = 'Pitch Perfect- Register'
+    title = 'Crimmz-pitch Register'
     if form.validate_on_submit():
         name = form.username.data
         email = form.email.data
@@ -17,7 +17,7 @@ def register():
         bio = "User has no bio"
         new_user = User(name = name, email = email, password = pass_input,profile_pic = profile_pic, bio = bio)
         new_user.save_user()
-        create_mail("Welcome","email/emai",new_user.email,name = name)
+        create_mail("Welcome","email/email",new_user.email,name = name)
         return redirect(url_for("auth.login"))
     return render_template("auth/register.html",form = form,title = title)
 
