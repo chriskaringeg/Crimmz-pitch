@@ -5,7 +5,7 @@ class Config:
     This is the parent class which will have the general configurations
     """
     UPLOADED_PHOTOS_DEST = "app/static/photos"
-    SECRET_KEY = os.environ.get("SECRET_KEY")
+    SECRET_KEY = 'samkasyoki'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://chris:blackpool005@localhost/crimmzpitch'
 
