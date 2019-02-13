@@ -4,9 +4,7 @@ from . import main
 from flask import render_template,redirect,url_for,flash,request,abort
 from flask_login import login_required
 import datetime
-from .. import photos,db
-
-@main.route("/")
+from .. import
 def index():
     pitches = Pitch.query.all()
     title = "Home"
