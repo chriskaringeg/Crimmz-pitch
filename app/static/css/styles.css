@@ -1,7 +1,7 @@
 body {
     background-size: cover;
-    font-family: Text Me One;
-    font-size: 1.8em;
+    font-family: monospace;
+    /* font-size: 1.8em; */
     background-image: linear-gradient(rgb(15, 164, 250), rgb(217, 236, 238));
     background-repeat:no-repeat;
     height: 100vh;
