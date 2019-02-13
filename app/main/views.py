@@ -5,6 +5,8 @@ from flask import render_template,redirect,url_for,flash,request,abort
 from flask_login import login_required
 import datetime
 from .. import photos,db
+
+@main.route("/")
 def index():
     pitches = Pitch.query.all()
     title = "Home"
@@ -111,4 +113,3 @@ def update_profile(user_id):
         db.session.commit() 
         return redirect(url_for('main.profile',user_id = user.id)) 
     return render_template("update_profile.html",form = form,title = title)
-
